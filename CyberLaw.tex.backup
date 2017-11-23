@@ -1,0 +1,163 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+\begin{titlepage}
+	\centering % Centre everything on the title page
+	
+	\scshape % Use small caps for all text on the title page
+	
+	\vspace*{\baselineskip} % White space at the top of the page
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.75\baselineskip} % Whitespace above the title
+	
+	{\LARGE "WannaCry",a Ransomeware that\\ changed the status of world's \\ cyber security\\} % Title
+	
+	\vspace{0.75\baselineskip} % Whitespace below the title
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
+	\rule{\textwidth}{1.6pt} % Thick horizontal rule
+	
+	\vspace{2\baselineskip} % Whitespace after the title block
+	
+	%------------------------------------------------
+	%	Subtitle
+	%------------------------------------------------
+	
+	NSA's powerful Windows hacking tools leaked online \\ $-$ CNN (April15, 2017) % Subtitle or further description
+	
+	\vspace*{3\baselineskip} % Whitespace under the subtitle
+	
+	%------------------------------------------------
+	%	Editor(s)
+	%------------------------------------------------
+	
+	
+	
+	\vspace{9.5\baselineskip} % Whitespace before the editors
+	Created By
+	\\
+	{\scshape\large Sayeed Bin Mozahid \\ ID: 151-35-843 \\ } % Editor list
+	{\scshape\Medium Department  of  Software Engineering \\}
+	{\scshape\Medium Daffodil Intertaional University }
+	
+	\vspace{0.5\baselineskip} % Whitespace below the editor list
+	
+	\textit{ } % Editor affiliation
+	
+	\vfill % Whitespace between editor names and publisher logo
+	
+	%------------------------------------------------
+	%	Publisher
+	%------------------------------------------------
+	
+	% \plogo % Publisher logo
+	
+	\vspace{0.3\baselineskip} % Whitespace under the publisher logo
+	
+	 % Publication year
+	
+	{\large August 15,2017} % Publisher
+\end{titlepage}
+
+
+% \maketitle
+
+% \begin{abstract}
+
+%\end{abstract}
+
+\newpage
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+
+
+
+\section{Case Story}
+`WannaCry' is a malware which is a scary type of Trojan virus is called ``Ransomware". 
+This malware in effect holds the infected computer hostage & demands that the victim 
+pay a ransom in order to regain access to the files on his or her computer.
+
+\\
+In May 2017, Worldwide Cyberattack by wannacry, where only Microsoft Windows Operating
+System's computers are suffered. WannaCry encrypt the infected computer file and demanding
+ransom payments in the Bitcoin cryptocurrency. This attack began on Friday, May 2017 and  
+within a day was reported to have infected more than 2,30,000 computers in over 150 countries.
+Part of the United Kingdom’s {\bf National Health Service (NHS)} was infected where Doctor
+appointments and operations were canceled and patients’ lives were at stake. Other major attacks were made on Spain’s
+{\bf Telefonica}, {\bf FedEx} and {\bf Deutsche Bahn}.
+
+\\
+The initial infection was likely through an exposed vulnerable {\bf SMB(Server Message Block)}  port,
+rather than email phishing as initial assumed. Initial stage, the malware executed a computer when it
+fail to find out ``kill switch” domain name and encrypts the computer files, then it try to exploit the
+SMB vulnerability to spread out to random computers on the Internet and ``laterally" to computers on the same network.
+After encrypted data, it give a message to user and demands a payment of around \$300 bitcoin within three days or \$600
+bitcoin within six days otherwise after seven days, they will destroy all data. As of 14 June 2017,
+totaling \$130,634.77 has been transferred where total of payment 327.
+
+\\
+Shortly after the attack began, a young Web Security Researcher from North Devon in England who was named 
+Marcus Hutchins then known as {\bf MalwareTech} discovered an effective `Kill switch’ by registering a domain
+name which he found in the code of the ransomware.It really slowed the spread of the infection, 
+effectively halting the initial outbreak on Monday, 15 May 2017, but new versions have since been detected
+that lack the kill switch.
+
+\\
+WannaCry malware was first discovered by the United States {\bf National Security Agency (NSA)}.
+But they used it to create own offensive work, rather than report it to Microsoft. This flaw and
+the tool to exploit it with malicious software were publicized recently by a hacker group by the name `Shadow Brokers’.
+
+\\
+In 14 March 2017, Microsoft eventually discovered the vulnerability and they issued security bulletin MS17-010 which detailed 
+the flaw and announced that {\bf patches} had been released for all Windows versions that were currently supported at that time.
+
+\\
+This Cyber Attack mainly occurs for SMB vulnerability though it began by email phishing. When user updated their computer and 
+removed vulnerability then the infected is slowed. If Microsoft knew this vulnerability before this attack then this incident
+never happened.
+
+\newpage
+\section{Offenses}
+List to offenses done by the hacker is given below:
+\begin{enumerate}
+ \item Hacker has transferred malware by unauthorized email.
+ \item Hacker was demanding ransom payments.
+ \item Full Operating System hacked by hacker.
+ \item Hacker unauthorized access to the computer.
+ \item Hacker encrypted all confidential data.
+ \item Hacker tampering with computer source code.
+\end{enumerate}
+
+\section{Attack on me}
+Suppose, I am a Windows 7 Operating System user and I am attack by \textbf{WannaCry}. After attack, When I turn on my computer then it shows me 
+a message where was written \textbf{`Your important files are encrypted. If you want to decrypt, you need to pay. You only three days
+to submit the payments. After that, the price will be double. Also if you don't pay in seven days, you won't be able to recover your file 
+forever and you can pay only by \textit{Bitcoin}'}. I didn't find any way to decrypt my data and it has forced to me for paying the ransom.
+\section{How to Avoid}
+           
+           After this attacked, Microsoft give us some guideline for stay safe:
+           \begin{itemize}
+            \item Be careful NOT to click on harmful links in your emails. 
+            \item Try to avoid visiting unsafe or unreliable sites.
+            \item Don't click on a untrusted link which takes away to an unsafe website. 
+            \item If you receive a message from your friend with a link, ask him before 
+            opening the link to confirm, (infected machines send random messages with links).
+            \item Keep your files backed up regularly and periodically.
+            \item Use anti virus and Always make have the last update.
+            \item Make sure your windows have the last update close the gap.
+           \end{itemize}
+
+
+\section{Reference}
+
+
+\end{document}
